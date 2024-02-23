@@ -1,0 +1,64 @@
+header{
+    background-color: #bfd3c1;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.boutonheader{
+    margin-top: 20px;
+    margin-right: 10px;
+    color: red;
+}
+
+body{
+    margin: 0;
+    background: repeating-linear-gradient(21deg, lightseagreen, lightpink 40px);
+}
+    
+#formulaire{
+    border: 2px solid black;
+    width: 66%;
+    margin: auto;
+    height: 250px;
+   flex-wrap: wrap;
+   align-items: center;
+}   
+
+form input{
+    height: 50px;
+    margin-top: 15px;
+}
+
+.divinput{
+    width: 50%;
+}
+ .inputformulaire{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+ }
+
+ .inputformulaire label{
+    color: whitesmoke;
+    margin-left: 10px;
+ }
+
+header img{
+    width: 150px;
+    height: 150px;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-variant: small-caps;
+    color: whitesmoke;
+}
+
+#validationformulaire{
+    position: relative;
+    left: 250px;
+    top: 50px;
+}

@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+   background-image: url("../images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.83;
+}
+
+header{
+    background: linear-gradient(#000, #3533cd);
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    width: 250px;
+    height: 250px;
+}
+
+#logo{
+    width: 250px;
+    height: 250px;
+}
+
+
+.boutonheader{
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.boutonheader button{
+    color: whitesmoke;
+    background-color: blue;
+    border: 2px solid red;
+    width: 100px;
+    height: 50px;
+}   
+
+.boutonheader a{
+    margin: 10px;
+}
+
+.boutonheader a:hover{
+    scale: 1.15;
+    margin-top: 20px;
+}
+
+form{
+    border: 2px solid rgb(255, 234, 0);
+    margin: auto;
+    width: 55%;
+    height: 550px;
+    padding-top: 80px;
+    margin-top: 80px;
+    padding-bottom: 60px;
+    margin-bottom: 15px;
+}
+
+footer{
+    background: linear-gradient(#000, #3533cd);
+    height: 50px;
+}
+
+footer a{
+    color: whitesmoke;
+    margin-top: 20px;
+}
+
+.lienfooter{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly
+}

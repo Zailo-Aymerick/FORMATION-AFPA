@@ -1,0 +1,180 @@
+header{
+    background: linear-gradient(#000, #3533cd);
+    display: flex;
+    justify-content: space-between;
+}
+body{
+   margin: 0;
+   background-image: url("../images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.83;
+}
+
+
+header img{
+    width: 250px;
+    height: 250px;
+}
+
+#logo{
+    width: 250px;
+    height: 250px;
+}
+
+.boutonheader{
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.boutonheader button{
+    color: whitesmoke;
+    background-color: blue;
+    border: 2px solid red;
+    width: 100px;
+    height: 50px;
+}   
+
+.boutonheader a{
+    margin: 10px;
+}
+
+.boutonheader a:hover{
+    scale: 1.15;
+    margin-top: 20px;
+}
+
+form{
+    border: 2px solid rgb(255, 234, 0);
+    margin: auto;
+    width: 55%;
+    height: 550px;
+    padding-top: 80px;
+    margin-top: 80px;
+    padding-bottom: 60px;
+    margin-bottom: 15px;
+}
+
+.titre{
+ display: flex;
+ justify-content: center;
+}
+
+.inputformulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ageUtilisateur{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 90px;
+}
+
+.nbaccident{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 90px;
+}
+
+.nbannee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 90px;
+}
+
+.permisold{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 90px;
+}
+
+.inputformulaire p{
+    margin-right: 10px;
+    letter-spacing: 5px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+.ageUtilisateur input{
+    width: 34%;
+}
+
+.boutonEnvoyer{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.boutonEnvoyer input{
+    color: whitesmoke;
+    background-color: red;
+    width: 100px;
+    height: 60px;
+}
+
+footer{
+    background: linear-gradient(#000, #3533cd);
+    height: 50px;
+}
+
+footer a{
+    color: whitesmoke;
+    margin-top: 20px;
+}
+
+.lienfooter{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly
+}
+
+
+.inputformulaire input{
+    height: 35px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+#tarif{
+    font-family: monospace;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: hsl(0, 0%, 100%);
+    font-family: cursive;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+p.tariforange{
+    color: whitesmoke;
+    border: 6px solid black;
+    text-align: center;
+    
+}
+
+p.tarifrouge{
+    color: red;
+}
+
+p.tarifvert{
+    color: greenyellow;
+}
+
+p.tarifbleu{
+    color: blue;
+}
